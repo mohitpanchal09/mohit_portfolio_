@@ -48,6 +48,7 @@ const Menu = () => {
       variants={mobileMenuVariants}
       animate={controls}
       className={isMobile ? styles.mobileMenuContainer : ''}
+     
     >
       <Container
         display="flex"
@@ -55,13 +56,12 @@ const Menu = () => {
         justifyContent="space-between"
         padding={{ base: 5, lg: 0 }}
         paddingY={{ base: 5, lg: 0 }}
-        backgroundColor={isMobile ? bg : 'transparent'}
+        backgroundColor='black'
         width="100vw"
         maxWidth="100vw"
         margin={0}
-        
       >
-        {/* <Logo /> */}
+        <Logo />
         <Navigation />
       </Container>
     </motion.div>
