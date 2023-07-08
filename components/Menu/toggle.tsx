@@ -7,7 +7,7 @@ const Path = (props: any) => (
   <motion.path
     fill="transparent"
     strokeWidth="3"
-    stroke={props?.isDarkMode ? 'hsl(240, 100%, 94%)' : 'hsl(0, 0%, 7%)'}
+    stroke={props?.isDarkMode ? 'hsl(240, 100%, 94%)' : 'white'}
     strokeLinecap="round"
     {...props}
   />
@@ -27,12 +27,14 @@ export const MenuToggle = ({
       height: '40px',
       display: 'flex',
       alignItems: 'center',
+      
       justifyContent: 'center',
     }}
   >
-    <svg width="23" height="23" viewBox="0 0 23 18">
+    <svg width="23" height="23" viewBox="0 0 23 18" >
       <Path
         isDarkMode={isDarkMode}
+        
         variants={{
           closed: { d: 'M 2 2.5 L 20 2.5' },
           open: { d: 'M 3 16.5 L 17 2.5' },
@@ -44,6 +46,7 @@ export const MenuToggle = ({
         variants={{
           closed: { opacity: 1 },
           open: { opacity: 0 },
+        
         }}
         transition={{ duration: 0.1 }}
       />
@@ -72,11 +75,12 @@ const MobileMenu = ({
     animate={isOpen ? 'open' : 'closed'}
     style={{
       display: 'flex',
+      // backgroundColor:'black',
       alignItems: 'center',
     }}
   >
     {/* <motion.div className="background" variants={sidebar} /> */}
-    <MenuToggle toggle={() => toggle()} isDarkMode={isDarkMode} />
+    <MenuToggle  toggle={() => toggle()} isDarkMode={isDarkMode}  />
   </motion.nav>
 )
 
