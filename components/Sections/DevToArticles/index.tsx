@@ -106,7 +106,7 @@ const DevToArticles = ({ articles }: { articles: Article[] }) => {
               as="article"
             >
               <Heading fontSize="larger" paddingX={2}>
-                Computer Vision
+                Heroku and AWS
               </Heading>
               <Divider borderColor="#A6A6A6" width="95%" />
               <Stack spacing={1}>
@@ -115,7 +115,7 @@ const DevToArticles = ({ articles }: { articles: Article[] }) => {
                   paddingX={2}
                   variant="accentAlternative"
                 >
-                  Python,Deep Learning
+                Heroku and AWS
                 </Heading>
                 <Heading fontSize="smaller" variant="description" paddingX={2}>
                   {/* {item.readable_publish_date} */}
