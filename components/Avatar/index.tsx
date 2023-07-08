@@ -60,7 +60,7 @@ const Avatar = () => {
         <Text textAlign="center" fontSize="smaller" variant="description" color='gray'>
           Art by{' '}
           <Link
-            href="https://twitter.com/kojiro_ai"
+            href=""
             target="_blank"
             aria-label="KojiroArt"
             rel="noreferrer"
