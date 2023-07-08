@@ -197,18 +197,7 @@ const Navigation = () => {
               Contact
             </Button>
           </Box>
-          {!isMobile && (
-            <Box>
-              <IconButton
-                marginX={1}
-                aria-label="Color Mode"
-                variant="ghost"
-                icon={<Icon />}
-                boxShadow="none"
-                onClick={toggleColorMode}
-              />
-            </Box>
-          )}
+          
         </Flex>
       </MotionContainer>
     </>
