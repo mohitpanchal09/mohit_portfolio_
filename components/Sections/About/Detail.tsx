@@ -18,7 +18,7 @@ import {
   SiTypescript,
   SiGraphql,
   SiReact,
-  SiNextDotJs,
+  // SiNextDotJs,
   SiNodeDotJs,
   SiDocker,
 } from 'react-icons/si'
