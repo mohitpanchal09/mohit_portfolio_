@@ -38,7 +38,7 @@ export const Experiences: {
         Worked as a Frontend Developer on new{' '}
         <Link
           aria-label="Deloitte Digital AU"
-          href="https://www.deloittedigital.com.au/"
+          href=""
           target="_blank"
           rel="noreferrer"
         >
