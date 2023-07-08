@@ -32,7 +32,7 @@ const DevToArticles = ({ articles }: { articles: Article[] }) => {
         Dev.to content
       </Heading>
       <Text variant="description" color='var(--chakra-colors-gray-400)'>
-        I write Tech related things from time to time on linkdn!
+        I write Tech related things from time to time on linkedIn!
       </Text>
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={{ base: 5, md: 10 }}>
         
