@@ -19,7 +19,7 @@ import {
   SiGraphql,
   SiReact,
   // SiNextDotJs,
-  SiNodeDotJs,
+  SiNodedotjs,
   SiDocker,
 } from 'react-icons/si'
 import { GiCoffeePot } from 'react-icons/gi'
@@ -72,7 +72,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
           </ListItem>
 
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiNodeDotJs} color={emphasis} fontSize="2em" />
+            <ListIcon as={SiNodedotjs} color={emphasis} fontSize="2em" />
             Node
           </ListItem>
         </List>

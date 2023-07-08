@@ -1,18 +1,18 @@
 import { IconType } from 'react-icons'
 import {
-  SiDotNet,
+  // SiDotNet,
   SiJavascript,
   SiTypescript,
-  SiNodeDotJs,
+  SiNodedotjs,
   SiGraphql,
   SiApollographql,
   SiPhp,
   SiReact,
-  SiNextDotJs,
+  // SiNextDotJs,
   SiRedux,
-  SiStyledComponents,
+  // SiStyledComponents,
   SiGhost,
-  SiVueDotJs,
+  // SiVueDotJs,
   SiDocker,
   SiGooglecloud,
   SiCpanel,
@@ -23,8 +23,8 @@ import {
   SiMysql,
   SiMongodb,
   SiRedis,
-  SiSocketDotIo,
-  SiMaterialUi,
+  // SiSocketDotIo,
+  // SiMaterialUi,
   SiFramer,
   SiGit,
   SiGnubash,
@@ -58,13 +58,10 @@ export const Skills: {
   [key in SkillCategory]: Skill[]
 } = {
   backend: [
-    {
-      name: 'C# - .NET.Core',
-      icon: SiDotNet,
-    },
+    
     {
       name: 'Node',
-      icon: SiNodeDotJs,
+      icon: SiNodedotjs,
     },
     {
       name: 'Javascript (ES6+)',
@@ -88,10 +85,7 @@ export const Skills: {
       name: 'React, RecoilJS',
       icon: SiReact,
     },
-    {
-      name: 'NextJS',
-      icon: SiNextDotJs,
-    },
+    
     {
       name: 'Apollo Graphql',
       icon: SiApollographql,
@@ -100,10 +94,7 @@ export const Skills: {
       name: 'Redux',
       icon: SiRedux,
     },
-    {
-      name: 'VueJS',
-      icon: SiVueDotJs,
-    },
+    
     {
       name: 'Ghost',
       icon: SiGhost,
@@ -130,10 +121,7 @@ export const Skills: {
       name: 'Redis',
       icon: SiRedis,
     },
-    {
-      name: 'SocketIO',
-      icon: SiSocketDotIo,
-    },
+   
     {
       name: 'Google Pubsub',
       icon: SiGooglecloud,
@@ -166,18 +154,12 @@ export const Skills: {
     },
   ],
   'ui frameworks': [
-    {
-      name: 'Styled Components',
-      icon: SiStyledComponents,
-    },
+    
     {
       name: 'AntDesign',
       icon: AiOutlineAntDesign,
     },
-    {
-      name: 'MaterialUI',
-      icon: SiMaterialUi,
-    },
+    
     {
       name: 'Framer Motion',
       icon: SiFramer,

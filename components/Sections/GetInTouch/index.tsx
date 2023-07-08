@@ -68,11 +68,11 @@ const GetInTouch = () => {
 
       <Box
       color="gray"
-        spacing={0.5}
-        textAlign="center"
-        fontFamily="monospace"
-        paddingTop={{ base: 10, lg: 20, xl: 20 }}
-        paddingBottom={{ base: 5, lg: 18 }}
+      // spacing="0.5"
+      textAlign="center"
+      fontFamily="monospace"
+      paddingTop={{ base: 10, lg: 20, xl: 20 }}
+      paddingBottom={{ base: 5, lg: 18 }}
       >
         <Link
           variant="description"
