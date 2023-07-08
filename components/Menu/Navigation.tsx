@@ -27,10 +27,7 @@ const Navigation = () => {
     md: 'sm',
   })
 
-  const bg = useColorModeValue(
-    'rgba(237, 242, 247, 0.95)',
-    'rgba(18, 18, 18, 0.9)'
-  )
+  const bg = useColorModeValue('black', 'black');
 
   const borderColor = useColorModeValue('teal.500', 'cyan.200')
 
@@ -57,15 +54,16 @@ const Navigation = () => {
         className={styles.menuBar}
         zIndex={100}
         top="3%"
+       
       >
-        <IconButton
+        {/* <IconButton
           aria-label="Color Mode"
           variant="ghost"
           icon={<Icon />}
           boxShadow="none"
           onClick={toggleColorMode}
           padding={0}
-        />
+        /> */}
         <MobileMenu isDarkMode={IsDark} toggle={toggleOpen} isOpen={isOpen} />
       </Box>
 
