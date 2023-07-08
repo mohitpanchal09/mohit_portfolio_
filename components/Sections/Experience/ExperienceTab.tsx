@@ -140,7 +140,7 @@ const ExperienceTab = () => {
                       color={emphasis}
                       display="block"
                     />
-                    <Text as="span" display="block" variant="description" color='rgba(255, 255, 255, 0.92)' color="gray">
+                    <Text as="span" display="block" variant="description"  color="gray">
                       {roleDesc}
                     </Text>
                   </ListItem>
