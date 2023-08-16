@@ -4,17 +4,10 @@ const OpenGraphHead = () => (
     <title>Mohit Kumar</title>
     <meta name="description" content="My personal solace place on web-earth." />
     <meta property="og:title" content="Mohit Kumar" />
-    <meta property="og:site_name" content="Marc Jhon Lawingco" />
-    {/* <meta property="og:url" content="https://kllawingco.netlify.app/" /> */}
-    {/* <meta
-      property="og:description"
-      content="Ohh you found me?. Howdy! I am Marc Jhon Lawingco. Or you could call me KL. That works too . . . I am a Software Engineer"
-    /> */}
+    <meta property="og:site_name" content="Mohit Panchal, expertise in Fronten development. Talks about Development,Technologies. Expert in HTML CSS JS REACTJS MONGODB NODEJS EXPRESSJS and PYTHON" />
+    
     <meta property="og:type" content="profile" />
-    {/* <meta
-      property="og:image"
-      content="https://kllawingco.netlify.app/KL_avatar.png"
-    ></meta> */}
+    
   </Head>
 )
 export default OpenGraphHead
