@@ -1,6 +1,5 @@
 import {
   Box,
-  Image as ChkImage,
   Text,
   Link,
   SkeletonCircle,
@@ -39,7 +38,8 @@ const Avatar = () => {
   }, [])
   return (
     <AnimatePresence>
-      <MotionBox
+      {/* Comment out or remove the MotionBox containing the avatar */}
+      {/* <MotionBox
         id="klAvatar"
         boxSize={{ base: 64, lg: 'sm' }}
         padding={{ base: 8 }}
@@ -68,7 +68,20 @@ const Avatar = () => {
             Mohit 
           </Link>
         </Text>
-      </MotionBox>
+      </MotionBox> */}
+      
+      {/* Display only the text */}
+      <Text textAlign="center" fontSize="smaller" variant="description" color='gray'>
+        Art by{' '}
+        <Link
+          href=""
+          target="_blank"
+          aria-label="KojiroArt"
+          rel="noreferrer"
+        >
+          Mohit 
+        </Link>
+      </Text>
     </AnimatePresence>
   )
 }
