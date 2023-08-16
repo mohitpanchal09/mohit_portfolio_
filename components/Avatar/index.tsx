@@ -50,8 +50,8 @@ const Avatar = () => {
         exit={{ opacity: 0 }}
       >
         <ChkImage
-          src={imgAvatar}
-          alt="KL Lawingco Avatar"
+        
+          alt="Mohit Kumar"
           htmlWidth="250"
           htmlHeight="250"
           margin="auto"
